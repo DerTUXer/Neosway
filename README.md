@@ -1,25 +1,7 @@
-<p align="center">
-    <img src="assets/swayfx_logo.svg" width="256" alt="swayfx logo">
-</p>
+Sway ist ein unglaublicher Fenstermanager und sicherlich einer der etabliertesten Fenstermanager von Wayland. Es ist jedoch darauf beschränkt, nur die Funktionalität einzubeziehen, die in i3 vorhanden war. Dieser Fork verzichtet auf den einfachen wlr_renderer und ersetzt ihn durch unseren fx_renderer, der mit ausgefallenen GLES2-Effekten rendern kann. Dies erweitert zusammen mit ein paar kleineren Änderungen den Funktionsumfang von Sway um Folgendes:
 
 
-Sway is an incredible window manager, and certainly one of the most well established wayland window managers. However, it is restricted to only include the functionality that existed in i3. This fork ditches the simple wlr_renderer, and replaces it with our fx_renderer, capable of rendering with fancy GLES2 effects. This, along with a couple of minor changes, expands sway's featureset to include the following:
 
-+ **Blur**
-+ **Anti-aliased rounded corners, borders, and titlebars**
-+ **Shadows**
-+ **Dim unfocused windows**
-+ **Scratchpad treated as minimize**: Allows docks, or panels with a taskbar, to correctly interpret minimize / unminimize requests ([thanks to LCBCrion](https://github.com/swaywm/sway/issues/6457))
-+ **nixify the repo**: Allows nixos users to easily contribute to and test this project
-
-<p align="center">
-    <a href="https://repology.org/project/swayfx/versions"><img src="https://repology.org/badge/vertical-allrepos/swayfx.svg" height="282"/></a>
-    <img src="assets/swayfx_screenshot.jpg" width="500"/>
-</p>
-
-For Fedora users, SwayFX is also available in [copr](https://copr.fedorainfracloud.org/coprs/swayfx/swayfx/) or in the [Terra repository](https://terra.fyralabs.com).
-
-[Join our Discord](https://discord.gg/qsSx397rkh)
 
 ## New Configuration Options
 
